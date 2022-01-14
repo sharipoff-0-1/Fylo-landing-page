@@ -355,10 +355,6 @@ footer {
     flex-direction: row-reverse;
   }
 
-  .footer {
-    justify-content: space-between;
-  }
-
   .hero {
     padding-top: 6rem;
   }
@@ -458,5 +454,13 @@ footer {
 
   .social-media {
     align-self: baseline;
+  }
+
+  .footer {
+    justify-content: space-between;
+  }
+
+  footer {
+    padding: 2rem 0;
   }
 }
