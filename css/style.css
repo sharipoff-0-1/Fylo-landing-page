@@ -25,6 +25,7 @@ html {
 }
 
 body {
+  min-height: 100hv;
   font-family: var(--ff-sans);
   font-size: 1rem;
   font-weight: 400;
@@ -312,6 +313,9 @@ footer {
 }
 
 @media screen and (min-width: 70em) {
+  body {
+    height: 100%;
+  }
   .container {
     min-width: 80em;
   }
@@ -333,6 +337,10 @@ footer {
     justify-content: space-between;
   }
 
+  .hero-img {
+    max-width: 50%;
+  }
+
   .hero-title {
     font-size: 2.1rem;
     line-height: 1.2;
@@ -341,7 +349,7 @@ footer {
   .intro {
     max-width: 50%;
     text-align: left;
-    padding: 0 2em;
+    padding-right: 2em;
   }
 
   .hero-text {
