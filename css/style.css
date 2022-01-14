@@ -424,11 +424,11 @@ footer {
 
   .subs-content {
     text-align: left;
-    max-width: 35%;
+    max-width: 45%;
   }
 
   .email-box {
-    max-width: 60%;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -448,7 +448,12 @@ footer {
   }
 
   .subs-title {
+    font-size: 1.6rem;
     margin-left: 0;
+  }
+
+  .subs-text {
+    font-size: 1.2rem;
   }
 
   .social-media {
