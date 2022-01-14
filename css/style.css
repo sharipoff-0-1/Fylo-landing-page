@@ -359,6 +359,10 @@ footer {
     justify-content: space-between;
   }
 
+  .hero {
+    padding-top: 6rem;
+  }
+
   .hero-img {
     max-width: 40%;
   }
