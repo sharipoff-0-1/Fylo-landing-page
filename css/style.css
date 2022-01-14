@@ -76,6 +76,7 @@ nav {
 /* hero */
 
 #hero {
+  height: 50em;
   padding-bottom: 3em;
 }
 
@@ -336,6 +337,11 @@ footer {
     margin-left: 2em;
   }
 
+  #hero,
+  #feature {
+    min-height: 40em;
+  }
+
   .hero,
   .features,
   .footer,
@@ -354,16 +360,16 @@ footer {
   }
 
   .hero-img {
-    max-width: 50%;
+    max-width: 40%;
   }
 
   .hero-title {
-    font-size: 2.1rem;
+    font-size: 2.5rem;
     line-height: 1.2;
   }
 
   .intro {
-    max-width: 50%;
+    max-width: 60%;
     text-align: left;
     padding-right: 2em;
   }
@@ -381,13 +387,13 @@ footer {
     background: url(/images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
   }
 
   .features-block {
     flex-direction: column;
     justify-content: center;
-    max-width: 50%;
+    max-width: 60%;
   }
 
   .features-title {
@@ -396,16 +402,20 @@ footer {
   }
 
   .features-text {
-    padding-right: 7rem;
+    padding-right: 8rem;
   }
 
   .feature-img {
-    max-width: 50%;
+    max-width: 40%;
   }
 
   .see-more,
   .quote {
     margin-left: 0;
+  }
+
+  #subscription {
+    padding: 3rem 0;
   }
 
   .subs-content {
